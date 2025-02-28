@@ -32,13 +32,13 @@ This script pulls data from the GOV.UK API to retrieve information about governm
 5. **Save Raw Data**: The processed data is saved to a local JSON file to avoid redundant API calls in the future.
 6. **Create DataFrames**: Pandas DataFrames are created
 7. **CSVs are Created**: Each DataFrame is written out
-8. **Data into SQL**: Data is processed into 5 tables
+8. **Data into SQL**: Data is processed into 5 tables, and then queried for their relationships
  - organisations (with id as PRIMARY KEY)
  - parent_organisations (with organisation_id as FOREIGN KEY) 
  - child_organisations (with organisation_id as FOREIGN KEY) 
  - superseded_organisations (with organisation_id as FOREIGN KEY) 
  - superseding_organisations (with organisation_id as FOREIGN KEY) 
-7. **Export to CSV**: The data is also exported to a CSV file (`superseded_organisations.csv`).
+7. **Export to CSV**: Each of the relational tables is also exported to a CSV file (e.g. `superseded_organisations.csv`).
 
 ### Usage
 To run the script, simply execute it in your Python environment. Ensure that all dependencies are installed.
