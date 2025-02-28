@@ -5,7 +5,7 @@ This script pulls data from the GOV.UK API to retrieve information about governm
 
 ## Dataset Description
 - **Source**: https://www.gov.uk/api/organisations
-- **Dcoumentation**: https://docs.publishing.service.gov.uk/repos/collections/api.html
+- **Documentation**: https://docs.publishing.service.gov.uk/repos/collections/api.html
 - **Total**: 1218 (as of 28th February, 2025)
 - **Government departments, agencies, and public bodies**
 - **Licence**: Licensed under the Open Government Licence v.3.0.
