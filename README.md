@@ -8,11 +8,11 @@ This script pulls data from the GOV.UK API to retrieve information about governm
 - **Dcoumentation**: https://docs.publishing.service.gov.uk/repos/collections/api.html
 - **Total**: 1218 (as of 28th February, 2025)
 - **Government departments, agencies, and public bodies**
-- **Collector last ran on**: 2025-02-27 (as of 28th February, 2025)
-- **Origin**: Contains some data created by MHCLG. Efforts are ongoing to replace it with data from authoritative sources.
 - **Licence**: Licensed under the Open Government Licence v.3.0.
 - **Attribution**: © Crown copyright and database right 2025
 - **Summary**: A selection of departments, agencies, public bodies, and teams listed on GOV.UK. This data originally came from the government organisation register and is maintained to help identify the organisations which provide planning and housing data.
+
+Similar data is available at the (Departments, agencies and public bodies page)[https://www.planning.data.gov.uk/dataset/government-organisation] and at this page containing a (Government organisation dataset)[https://www.planning.data.gov.uk/dataset/government-organisation], though it only seems to contain 23 entities. 
 
 ## Script Details
 
